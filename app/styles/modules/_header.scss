@@ -1,0 +1,16 @@
+.main__header{
+	background: url('../../images/hero.jpg') no-repeat;
+	background-size: cover;
+	padding: 55px 0;
+	color: #FFF;
+	height: 100vh;
+	.content{
+		margin-top: 50px;
+		img{
+			width: 100%;
+		}
+		@include small{
+			margin-top: 0;
+		}
+	}
+}

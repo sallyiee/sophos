@@ -1,0 +1,45 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/components-font-awesome/scss/font-awesome.scss";
+// endbower
+
+//VARIABLES & MIXIN
+$green: #00cea6;
+$dark-green: #323a3e;
+
+@mixin small {
+  @media screen and (min-width: $screen-sm-min) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: $screen-md-min) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media screen and (min-width: $screen-lg-min) {
+    @content;
+  }
+}
+
+
+
+
+@import 'base/_reset';
+
+@import 'layout/_font-settings';
+@import 'layout/_button';
+@import 'layout/_spacings';
+
+@import 'modules/_navigation';
+@import 'modules/_header';
+@import 'modules/_about';
+@import 'modules/_testimonials';
+@import 'modules/_carousel';
+@import 'modules/_contact';
+@import 'modules/_footer';

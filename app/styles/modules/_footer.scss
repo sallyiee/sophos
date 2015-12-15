@@ -1,0 +1,25 @@
+footer{
+	font-size: 16px;
+	img{
+		width: 60%;
+	}
+	.email{
+		text-decoration: underline;
+		color: $dark-green;
+	}
+
+	.footer-content{
+		position: relative;
+		@include small{
+			height: 152px;
+		}
+
+	}
+
+	.pull-down{
+		@include small{
+			position: absolute;
+			bottom: 0;
+		}
+	}
+}

@@ -1,0 +1,82 @@
+.contact{
+	background-color: #eeeeee;
+	iframe{
+		height: 680px;
+	}
+}
+
+
+input, textarea, option{
+	width: 100%;
+	padding: 10px 15px;
+	border: 3px solid #b1b1b1;
+	font-size: 18px;
+	color: #56776e;
+}
+
+input, textarea, option {
+    &:focus{
+		outline: 3px solid $green;
+    }
+}
+
+textarea{
+	height: 160px;
+}
+
+.styled-select {
+   border: 3px solid #b1b1b1;
+    width: 100%;
+
+    overflow: hidden;
+    background: #fafafa url('../../images/arrow.png') no-repeat 100% 50%;
+}
+
+.styled-select select {
+    padding: 10px 15px;
+    font-size: 18px;
+    width: 100%;
+    line-height: 1;
+    height: 43px;
+    color: #56776e;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.styled-select select{
+	outline: 0;
+}
+
+
+::-webkit-input-placeholder {
+   color: #56776e;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #56776e;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #56776e;  
+}
+
+:-ms-input-placeholder {  
+   color: #56776e;  
+}
+
+.submit-button{
+	background: url('../../images/submit-btn.png') no-repeat;
+    cursor:pointer;
+    background-size: contain;
+    border: none;
+	text-indent: -9999px;
+	width: 180px;
+	height: 77px;
+	cursor: pointer;
+	&:focus{
+		outline: none;
+    }
+}

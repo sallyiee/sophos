@@ -1,0 +1,17 @@
+.btn{
+	font-weight: bold;
+	font-size: 18px;
+	color: #FFF;
+	width: 250px;
+	padding: 10px 0;
+	border-radius: 0;
+	&.green{
+		background-color: $green;
+	}
+	&.link-styled{
+		color: $green;
+		padding: 0;
+		width: auto;
+	}
+
+}
