@@ -53,3 +53,14 @@ section, footer{
 		background-color: #d2d2d2;
 	}
 }
+.large-container{
+	@include medium{
+		width: 90%;
+		margin: auto;
+	}
+}
+
+.remove-float{
+	float: none !important;
+	margin: auto;
+}

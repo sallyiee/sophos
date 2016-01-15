@@ -1,12 +1,19 @@
 .btn{
-	font-weight: bold;
-	font-size: 18px;
+
+	font-size: 14px;
 	color: #FFF;
 	width: 250px;
 	padding: 10px 0;
 	border-radius: 0;
-	&.green{
-		background-color: $green;
+	text-transform: uppercase;
+	&.white{
+		background-color: #FFF;
+		color: #37a7a2;
+	}
+	&.ghost{
+		background: transparent;
+		border: 1px solid #FFF;
+		color: #FFF;
 	}
 	&.link-styled{
 		color: $green;

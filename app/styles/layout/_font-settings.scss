@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'okojo';
-    src: url('../../../fonts/okojo-bold-webfont.eot');
-    src: url('../../../fonts/okojo-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../../fonts/okojo-bold-webfont.woff2') format('woff2'),
-         url('../../../fonts/okojo-bold-webfont.woff') format('woff'),
-         url('../../../fonts/okojo-bold-webfont.ttf') format('truetype'),
-         url('../../../fonts/okojo-bold-webfont.svg#okojobold') format('svg');
+    src: url('../../../fonts/Flama-Bold.eot');
+    src: url('../../../fonts/Flama-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../../../fonts/Flama-Bold.woff2') format('woff2'),
+         url('../../../fonts/Flama-Bold.woff') format('woff'),
+         url('../../../fonts/Flama-Bold.ttf') format('truetype'),
+         url('../../../fonts/Flama-Bold.svg#okojobold') format('svg');
     font-weight: bold;
     font-style: normal;
 
@@ -17,7 +17,7 @@
     src: url('../../../fonts/okojo-webfont.eot?#iefix') format('embedded-opentype'),
          url('../../../fonts/okojo-webfont.woff2') format('woff2'),
          url('../../../fonts/okojo-webfont.woff') format('woff'),
-         url('../../../fonts/okojo-webfont.ttf') format('truetype'),
+         url('../../../fonts/Flama-Book.ttf') format('truetype'),
          url('../../../fonts/okojo-webfont.svg#okojoregular') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -31,15 +31,16 @@ body{
 
 
 h1{
-	font-size: 45px;
+
 	line-height: 1.2;
 	font-weight: bold;
     margin-top: 0;
-    @include medium{
-        font-size: 60px;
-    }
+    color: #0095d8;
     &.light{
         font-weight: normal;
+    }
+    &.large{
+        font-size: 52px;
     }
 }
 
@@ -55,4 +56,15 @@ h2{
 p{
 	font-size: 1.2em;
     line-height: 1.5;
+}
+
+.white{
+    color: #FFF;
+}
+
+main{
+    h1{
+        font-size: 27px;
+        font-weight: normal;
+    }
 }

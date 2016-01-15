@@ -1,9 +1,13 @@
 .main__header{
-	background: url('../../images/hero.jpg') no-repeat;
+	background: url('../../images/bg.jpg') no-repeat;
 	background-size: cover;
 	padding: 55px 0;
 	color: #FFF;
 	height: 100vh;
+	text-align: center;
+			display: flex;
+  align-items: center;
+  justify-content: center;
 	.content{
 		margin-top: 50px;
 		img{
@@ -12,5 +16,28 @@
 		@include small{
 			margin-top: 0;
 		}
+		.btn.white{
+			margin-bottom: 30px;
+			@media screen and (min-width: 768px){
+				margin-bottom: 0;
+			}
+		}
+	}
+	.buttons{
+		margin: 20vh 0;
+
+		@media screen and (min-width: 768px){
+			& > div{
+				display: inline-block;
+				margin-right: 15px;
+			}
+		}
+	}
+
+
+}
+.mobile-only{
+	@media screen and (min-width: 1024px){
+		display: none;
 	}
 }
